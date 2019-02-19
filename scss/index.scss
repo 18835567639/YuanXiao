@@ -1,0 +1,23 @@
+$width:100%;
+$height:100%;
+*{
+	margin: 0;
+	padding: 0;
+}
+.root{
+	width: 100vw;
+	height: 100vh;
+}
+.swiper-container {
+    width: $width;
+    height: $height;
+		position: relative;
+	.swiper-slide{
+		width: $width;
+		height: $height;
+		background: red;
+	}
+	.top{
+		position: absolute;
+	}
+}
